@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CODE">
+      <UniqueIdentifier>{2b0e7217-3790-4a7a-9cb3-015549eeaf66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Main">
+      <UniqueIdentifier>{fdd1c106-963d-4f82-98c3-b1e558ae6913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Main\AndUIn">
+      <UniqueIdentifier>{f4cbf0aa-8fe6-4a90-ac92-a3d6fe76e5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Main\AndUIn\FD">
+      <UniqueIdentifier>{0b71249b-2b06-474c-a479-3e080429792d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AndUIn.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="AndUIn.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\anduin\I_cProgressBar.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cTabWindow.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cTextBox.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cTextBoxInput.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cTextPanel.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cWidget.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cWindow.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\anduin.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cAndUIn.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cButton.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cCheckButton.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cImageButton.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cLabel.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cMessageBox.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cObject.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cPicture.cpp">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CODE\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\anduin\I_cProgressBar.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cTabWindow.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cTextBox.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cTextBoxInput.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cTextPanel.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cWidget.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cWindow.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\anduin.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cAndUIn.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cButton.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cCheckButton.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cImageButton.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cLabel.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cMessageBox.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cObject.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cPicture.h">
+      <Filter>CODE\Main\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\FastDelegate\FastDelegate.h">
+      <Filter>CODE\Main\AndUIn\FD</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\FastDelegate\FastDelegateBind.h">
+      <Filter>CODE\Main\AndUIn\FD</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
